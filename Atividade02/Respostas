@@ -1,0 +1,11 @@
+Diferença entre escalabilidade vertical e horizontal
+
+Escalabilidade vertical consiste em aumentar recursos de uma única máquina, como memória RAM e CPU. Escalabilidade horizontal consiste em adicionar mais máquinas ou instâncias para dividir a carga.
+
+O que foi feito?
+
+Foi realizada escalabilidade horizontal, porque foram adicionadas novas réplicas dos containers para distribuir as requisições.
+
+O que acontece se um container falhar?
+
+Com 3 réplicas, os outros containers continuam funcionando. Com apenas 1 réplica, o serviço pode ficar indisponível.
